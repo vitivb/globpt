@@ -1,0 +1,3 @@
+
+'use strict';document.addEventListener('DOMContentLoaded',()=>{function showMenu(){let hamburger=document.querySelector('.hamburger'),menu=document.querySelector('.promo__menu'),close=document.querySelector('.close');hamburger.addEventListener('click',()=>{menu.classList.add('active');setTimeout(()=>{close.style.display='inline';},500);});close.addEventListener('click',()=>{menu.classList.remove('active');close.style.display='none';});}
+showMenu();$('.clients__slider').slick({dots:true,infinite:true,speed:300,slidesToShow:1,adaptiveHeight:true});});
